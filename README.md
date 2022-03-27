@@ -21,6 +21,6 @@ IP-Tracer, bir ip adresini izlemek için kullanılır. IP-Tracer, Termux ve Linu
 * `trace -m` kendi ip adresinizi öğrenmek için.
 
 * `trace -t <hedef-ip>` Başkalarının ip adresini izlemek için
-* Örnek`ip-tracer -t 127.0.0.1`
+* Örnek: `ip-tracer -t 127.0.0.1`
 
 * `trace` Daha fazla bilgi için.
