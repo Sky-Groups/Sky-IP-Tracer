@@ -1,0 +1,11 @@
+# Tool Name :- Sky-IP-Tracer
+# Author :- Egehan Gökden
+# Date :- 27/3/2022
+# Powered By :- Sky Groups
+if [ -d /data/data/com.termux/files/usr/share ];then
+  cd /data/data/com.termux/files/usr/share/Sky-IP-Tracer
+  exec bash trace $@
+elif [ -d /usr/share ];then
+  cd /usr/share/Sky-IP-Tracer
+  exec bash trace $@
+fi
